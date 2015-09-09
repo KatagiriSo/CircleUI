@@ -13,6 +13,8 @@
 		323CD8301B9EE05300E123AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323CD82F1B9EE05300E123AD /* Images.xcassets */; };
 		323CD8331B9EE05300E123AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323CD8311B9EE05300E123AD /* LaunchScreen.xib */; };
 		323CD83F1B9EE05300E123AD /* CircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CD83E1B9EE05300E123AD /* CircleUITests.swift */; };
+		323CD8491B9EE06800E123AD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CD8481B9EE06800E123AD /* CircleView.swift */; };
+		323CD84B1B9EE0B500E123AD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323CD84A1B9EE0B500E123AD /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		323CD8381B9EE05300E123AD /* CircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323CD83D1B9EE05300E123AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323CD83E1B9EE05300E123AD /* CircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleUITests.swift; sourceTree = "<group>"; };
+		323CD8481B9EE06800E123AD /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		323CD84A1B9EE0B500E123AD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323CD84B1B9EE0B500E123AD /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		323CD81A1B9EE05200E123AD = {
 			isa = PBXGroup;
 			children = (
+				323CD84A1B9EE0B500E123AD /* QuartzCore.framework */,
 				323CD8251B9EE05200E123AD /* CircleUI */,
 				323CD83B1B9EE05300E123AD /* CircleUITests */,
 				323CD8241B9EE05200E123AD /* Products */,
@@ -78,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				323CD8281B9EE05300E123AD /* AppDelegate.swift */,
+				323CD8481B9EE06800E123AD /* CircleView.swift */,
 				323CD82A1B9EE05300E123AD /* ViewController.swift */,
 				323CD82C1B9EE05300E123AD /* Main.storyboard */,
 				323CD82F1B9EE05300E123AD /* Images.xcassets */,
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323CD8491B9EE06800E123AD /* CircleView.swift in Sources */,
 				323CD82B1B9EE05300E123AD /* ViewController.swift in Sources */,
 				323CD8291B9EE05300E123AD /* AppDelegate.swift in Sources */,
 			);
